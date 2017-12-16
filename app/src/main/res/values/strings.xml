@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">tasp</string>
+    <string name="action_settings">settings</string>
+    <string-array name="drugs">
+        <item>Drug1</item>
+        <item>Drug2</item>
+        <item>Drug3</item>
+    </string-array>
+</resources>
