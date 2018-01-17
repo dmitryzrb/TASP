@@ -16,7 +16,7 @@
         android:id="@+id/textView2"
         android:layout_width="409dp"
         android:layout_height="38dp"
-        android:text="Введите способ применения, рекомендованный именно вам (например: 2/3 чайных ложки валерьяны) "
+        android:text="Введите способ применения, рекомендованный именно вам (например: 2/3 чайных ложки валерьянки) "
         tools:ignore="MissingConstraints"
         tools:layout_editor_absoluteX="6dp"
         tools:layout_editor_absoluteY="16dp" />
