@@ -9,6 +9,7 @@ import android.support.v4.view.ViewPager;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
 import android.view.LayoutInflater;
+import android.view.View;
 import android.widget.ArrayAdapter;
 import android.widget.ListAdapter;
 import android.widget.ListView;
@@ -30,6 +31,8 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
+
+
         String[] names = {"Vasili", "Igor"};
         ListView lv = (ListView) findViewById(R.id.ididi);
         ArrayAdapter<String> lvAdapter = new ArrayAdapter<String>(this, android.R.layout.simple_list_item_1, names);
@@ -44,6 +47,9 @@ public class MainActivity extends AppCompatActivity {
 
 
     }
+
+
+
     private void setupTabIcons() {
         TextView tabMain = (TextView) LayoutInflater.from(this).inflate(R.layout.custom_tab, null);
         tabMain.setText("Главная");
