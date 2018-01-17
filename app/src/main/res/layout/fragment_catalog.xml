@@ -17,7 +17,7 @@
         android:layout_below="@+id/include2"
         android:ems="18"
         android:inputType="textPersonName"
-        android:text="Впишите название " />
+        android:text="Впишите назвашку " />
 
     <Button
         android:id="@+id/button3"
