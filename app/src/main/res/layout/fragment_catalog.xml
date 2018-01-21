@@ -21,30 +21,35 @@
 
     <Button
         android:id="@+id/button3"
+        style="@style/Widget.AppCompat.Button.Colored"
         android:layout_width="300dp"
         android:layout_height="60dp"
         android:layout_below="@+id/changename"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="60dp"
-        android:text="Единицы измерения препарата"
-        />
+        android:background="@android:color/holo_red_dark"
+        android:text="Единицы измерения препарата" />
 
     <Button
         android:id="@+id/button6"
+        style="@style/Widget.AppCompat.Button.Colored"
         android:layout_width="300dp"
         android:layout_height="60dp"
         android:layout_below="@+id/button3"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="60dp"
+        android:background="@android:color/holo_red_dark"
         android:text="Настройки приёма препарата" />
 
     <Button
         android:id="@+id/button7"
+        style="@style/Widget.AppCompat.Button.Colored"
         android:layout_width="300dp"
         android:layout_height="60dp"
         android:layout_alignStart="@+id/button6"
         android:layout_below="@+id/button6"
         android:layout_marginTop="60dp"
+        android:background="@android:color/holo_red_dark"
         android:text="Даты приёма препарата" />
 
 

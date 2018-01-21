@@ -24,7 +24,6 @@ public class MainActivity extends AppCompatActivity {
     private ViewPager viewPager;
     private int[] tabIcons = {
             R.drawable.ic_heart_pulse_white_18dp,
-            R.drawable.ic_comment_text_outline_white_18dp
     };
     @Override
     protected void onCreate(Bundle savedInstanceState) {
