@@ -18,6 +18,10 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity android:name=".Buttons3" />
+        <activity android:name=".ChangeName" />
+        <activity android:name=".SettingsDrugs" />
+        <activity android:name=".DataUseButton"></activity>
     </application>
 
 </manifest>

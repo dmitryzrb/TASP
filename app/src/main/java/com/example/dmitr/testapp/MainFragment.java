@@ -1,5 +1,6 @@
 package com.example.dmitr.testapp;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.support.design.widget.FloatingActionButton;
 import android.support.v4.app.Fragment;
@@ -24,6 +25,8 @@ public class MainFragment extends Fragment{
             fab.setOnClickListener(new View.OnClickListener() {
                 @Override
                 public void onClick(View view) {
+                    Intent intent = new Intent(getActivity(), Buttons3.class);
+                    startActivity(intent);
 
                 }
             });
