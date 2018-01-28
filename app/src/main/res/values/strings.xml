@@ -7,4 +7,25 @@
         <item>Drug2</item>
         <item>Drug3</item>
     </string-array>
+    <string-array name="catlist">
+        <item>Барсик</item>
+        <item>Мурзик</item>
+        <item>Васька</item>
+        <item>Рыжик</item>
+    </string-array>
+    <string name="accept">Принять</string>
+    <string name="edizmerprep">Единицы измерения препарата</string>
+    <string name="nasprimer">Настройки приёма препарата</string>
+    <string name="datapriem">Даты приёма препарата</string>
+    <string name="tochvrprep">Укажите точное время применения препарата (если не нужно выбирать интервал)</string>
+    <string name="vrskotor">Укажите время с которого нужно начать и закончить принятие препарата</string>
+    <string name="intprim">Укажите интервал применения препарата в день</string>
+    <string name="neoprsr">Неопределённый срок</string>
+    <string name="viberpodvar">Выберите подходящий вариант:</string>
+    <string name="ykolikus">Укол</string>
+    <string name="tabletikus">Таблетка</string>
+    <string name="kaplikus">Капли</string>
+    <string name="mazikus">Мазь</string>
+    <string name="vvodsvoivariantikus">Введите свой вариант</string>
+    <string name="sposobpriminetikus">Способ применения:</string>
 </resources>

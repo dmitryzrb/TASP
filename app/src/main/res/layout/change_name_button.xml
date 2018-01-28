@@ -1,37 +1,69 @@
 <?xml version="1.0" encoding="utf-8"?>
-<android.support.constraint.ConstraintLayout
-    xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
-
-    <RadioGroup
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        tools:layout_editor_absoluteX="90dp"
-        tools:layout_editor_absoluteY="94dp"
-        tools:ignore="MissingConstraints" />
+    android:layout_height="match_parent"
+    android:orientation="vertical">
 
     <TextView
-        android:id="@+id/textView2"
-        android:layout_width="409dp"
-        android:layout_height="38dp"
-        android:text="Введите способ применения, рекомендованный именно вам (например: 2/3 чайных ложки валерьянки) "
-        tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="6dp"
-        tools:layout_editor_absoluteY="16dp" />
+        android:id="@+id/textView3"
+        android:layout_width="220dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="75dp"
+        android:text="@string/viberpodvar"
+        />
+
+    <CheckBox
+        android:id="@+id/radioButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView3"
+        android:layout_marginTop="20dp"
+        android:text="@string/ykolikus" />
+
+    <CheckBox
+        android:id="@+id/radioButton2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/radioButton"
+        android:layout_marginTop="20dp"
+        android:text="@string/tabletikus" />
+
+    <CheckBox
+        android:id="@+id/radioButton3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/radioButton2"
+        android:layout_marginTop="20dp"
+        android:text="@string/kaplikus" />
+
+    <CheckBox
+        android:id="@+id/radioButton4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/radioButton3"
+        android:layout_marginTop="20dp"
+        android:text="@string/mazikus" />
+
+    <CheckBox
+        android:id="@+id/radioButton5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/radioButton4"
+        android:layout_marginTop="20dp"
+        android:text="@string/vvodsvoivariantikus" />
 
     <EditText
-        android:id="@+id/yourtext"
-        android:layout_width="wrap_content"
-        android:layout_height="44dp"
-        android:layout_alignParentStart="true"
-        android:ems="18"
+        android:id="@+id/yourtext2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/radioButton4"
+        android:layout_marginTop="20dp"
         android:inputType="textPersonName"
-        android:text="Способ применения:"
-        tools:layout_editor_absoluteX="0dp"
-        tools:layout_editor_absoluteY="66dp"
-        tools:ignore="MissingConstraints" />
+        android:hint="@string/sposobpriminetikus"
+        />
 
     <Button
         android:id="@+id/button2"
@@ -39,10 +71,12 @@
         android:layout_width="300dp"
         android:layout_height="60dp"
         android:background="@android:color/holo_red_dark"
-        android:text="Принять"
+        android:layout_below="@+id/yourtext2"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="40dp"
+        android:text="@string/accept"
         tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="42dp"
-        tools:layout_editor_absoluteY="491dp" />
+        />
 
 
-</android.support.constraint.ConstraintLayout>
+</LinearLayout>

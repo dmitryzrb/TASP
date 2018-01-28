@@ -31,12 +31,6 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
 
-
-        String[] names = {"Vasili", "Igor"};
-        ListView lv = (ListView) findViewById(R.id.ididi);
-        ArrayAdapter<String> lvAdapter = new ArrayAdapter<String>(this, android.R.layout.simple_list_item_1, names);
-        lv.setAdapter(lvAdapter);
-
         viewPager = (ViewPager) findViewById(R.id.viewpager);
         setupViewPager(viewPager);
 

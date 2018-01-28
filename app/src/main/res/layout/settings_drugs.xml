@@ -1,74 +1,75 @@
 <?xml version="1.0" encoding="utf-8"?>
-<android.support.constraint.ConstraintLayout
+<LinearLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
+    android:orientation="vertical"
     android:layout_height="match_parent">
-
+    <TextView
+        android:id="@+id/SDtext1"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="15dp"
+        android:clickable="false"
+        android:layout_marginTop="10dp"
+        android:text="@string/intprim"
+        />
     <Spinner
-        android:id="@+id/spinner"
-        android:layout_width="368dp"
-        android:layout_height="60dp"
-        android:text="Введите время начала приёма"
-        tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="8dp"
-        tools:layout_editor_absoluteY="70dp" />
-
+        android:id="@+id/spinner1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:entries="@array/catlist"
+        />
+    <TextView
+        android:id="@+id/SDtext2"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="15dp"
+        android:clickable="false"
+        android:layout_marginTop="30dp"
+        android:text="@string/vrskotor"
+        />
     <Spinner
         android:id="@+id/spinner2"
-        android:layout_width="368dp"
-        android:layout_height="60dp"
-        tools:layout_editor_absoluteX="8dp"
-        tools:layout_editor_absoluteY="180dp"
-        tools:ignore="MissingConstraints" />
-
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:entries="@array/catlist"
+        />
+    <TextView
+        android:id="@+id/SDtext3"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="15dp"
+        android:clickable="false"
+        android:layout_marginTop="30dp"
+        android:text="@string/tochvrprep"
+        />
     <Spinner
         android:id="@+id/spinner3"
-        android:layout_width="368dp"
-        android:layout_height="60dp"
-        tools:layout_editor_absoluteX="8dp"
-        tools:layout_editor_absoluteY="280dp"
-        tools:ignore="MissingConstraints" />
+        android:layout_width="match_parent"
+        android:layout_marginTop="5dp"
+        android:entries="@array/catlist"
+        android:layout_height="wrap_content"
+        />
+
 
     <Button
         android:id="@+id/buttonOK"
         style="@style/Widget.AppCompat.Button.Colored"
-        android:layout_width="120dp"
-        android:layout_height="75dp"
+        android:layout_width="110dp"
+        android:layout_height="50dp"
         android:background="@android:color/holo_red_dark"
-        android:text="Принять"
-        tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="245dp"
-        tools:layout_editor_absoluteY="460dp" />
+        android:layout_below="@id/spinner3"
+        android:layout_marginTop="40dp"
+        android:layout_marginLeft="130dp"
+        android:layout_gravity="center_vertical"
+        android:text="@string/accept"
+        />
 
-    <TextView
-        android:id="@+id/textView"
-        android:layout_width="359dp"
-        android:layout_height="26dp"
-        android:layout_marginEnd="8dp"
-        android:text="Укажите интервал применения препарата в день"
-        app:layout_constraintEnd_toEndOf="@+id/spinner"
-        tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteY="44dp" />
-
-    <TextView
-        android:id="@+id/textView3"
-        android:layout_width="360dp"
-        android:layout_height="37dp"
-        android:layout_marginEnd="8dp"
-        android:text="Укажите время с которого нужно начать и закончить принятие препарата"
-        app:layout_constraintEnd_toEndOf="@+id/spinner2"
-        tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteY="143dp" />
-
-    <TextView
-        android:id="@+id/textView4"
-        android:layout_width="358dp"
-        android:layout_height="wrap_content"
-        android:layout_marginEnd="8dp"
-        android:text="Укажите точное время применения препарата (если не нужно выбирать интервал)"
-        app:layout_constraintEnd_toEndOf="@+id/spinner3"
-        tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteY="245dp" />
-</android.support.constraint.ConstraintLayout>
+</LinearLayout>
