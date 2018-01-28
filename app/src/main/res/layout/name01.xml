@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="350dp"
+        android:layout_height="60dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="100dp"
+        android:text="@string/vvodlovetext" />
+
+    <EditText
+        android:id="@+id/vvodimeni2"
+        android:layout_width="350dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="15dp"
+        android:hint="@string/sposobpriminetikus"
+        />
+
+    <Button
+        android:id="@+id/dalee2"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:layout_width="120dp"
+        android:layout_height="75dp"
+        android:layout_below="@+id/vvodimeni2"
+        android:layout_marginLeft="140dp"
+        android:layout_marginTop="25dp"
+        android:backgroundTint="@android:color/holo_red_dark"
+        android:textSize="16dp"
+        android:text="@string/dalee"
+        />
+
+</LinearLayout>

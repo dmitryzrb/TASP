@@ -28,4 +28,21 @@
     <string name="mazikus">Мазь</string>
     <string name="vvodsvoivariantikus">Введите свой вариант</string>
     <string name="sposobpriminetikus">Способ применения:</string>
+    <string name="vveditename">Введите название препарата</string>
+    <string name="dalee">Далее</string>
+    <string name="vvodlovetext">Введите ваши особенности применения препарата (те которые были реомендованы врачом, например:"2/3 чайной ложки на 100 грамм воды")</string>
+    <string name="poyasnenie">Сколько раз в день приёма нужно принимать в препарат</string>
+    <string name="o">1</string>
+    <string name="dv">2</string>
+    <string name="tr">3</string>
+    <string name="forch">4</string>
+    <string name="any"></string>
+    <string name="svoy">Введите свой вариант (в цифрах)</string>
+    <string name="inter">Выберите в каком интервале вы будете принимать препарат (в днях)</string>
+    <string name="zdesi">Здесь нужно выбрать сколько по продолжительности вы будете принимать препарат</string>
+    <string name="perm">Неограниченный срок</string>
+    <string name="nperm">Ограниченный срок</string>
+    <string name="choosethetime">Выбрать время</string>
+    <string name="ura">Завершить создание курса</string>
+
 </resources>

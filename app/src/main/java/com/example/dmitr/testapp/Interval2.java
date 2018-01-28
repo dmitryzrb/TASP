@@ -6,17 +6,17 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 
-public class SettingsDrugs extends AppCompatActivity {
+public class Interval2 extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.settings_drugs);
-        Button ChangeNameButton = findViewById(R.id.buttonOK);
+        setContentView(R.layout.interval2);
+        Button ChangeNameButton = findViewById(R.id.dalee4);
         ChangeNameButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(SettingsDrugs.this, Name0.class);
+                Intent intent = new Intent(Interval2.this, Slojno1.class);
                 startActivity(intent);
             }
         });

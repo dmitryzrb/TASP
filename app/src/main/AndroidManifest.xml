@@ -21,7 +21,15 @@
         <activity android:name=".Buttons3" />
         <activity android:name=".ChangeName" />
         <activity android:name=".SettingsDrugs" />
-        <activity android:name=".DataUseButton"></activity>
+        <activity android:name=".DataUseButton" />
+        <activity android:name=".Name0" />
+        <activity android:name=".Name01" />
+        <activity android:name=".Slojno1" />
+        <activity android:name=".Interval2" />
+        <activity android:name=".Data3" />
+        <activity android:name=".data31N" />
+        <activity android:name=".data31K" />
+        <activity android:name=".FinalParam"></activity>
     </application>
 
 </manifest>
