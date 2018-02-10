@@ -31,7 +31,7 @@
         android:layout_height="40dp"
         android:layout_marginTop="20dp"
         android:layout_marginLeft="20dp"
-        android:text="Тут отобразится введёный интервал в сутки"
+        android:text="Тут отобразится введёное количество применения препарата в сутки"
 
         />
 

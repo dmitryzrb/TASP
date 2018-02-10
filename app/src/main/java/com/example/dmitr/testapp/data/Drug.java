@@ -21,7 +21,8 @@ public class Drug {
     @ColumnInfo(name = "last_name")
     private String lastName;
 
-    @ColumnInfo(name = "created_date")
+
+
     @TypeConverters({DateConverter.class})
     public Date createDate;
 

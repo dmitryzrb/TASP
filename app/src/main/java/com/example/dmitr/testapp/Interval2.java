@@ -33,6 +33,7 @@ public class Interval2 extends AppCompatActivity {
                 intent.putExtra("name0", name0);
                 intent.putExtra("name01", name01);
                 intent.putExtra("slojno1", slojno1);
+                intent.putExtra("interval2", interval2);
                 startActivity(intent);
             }
         });

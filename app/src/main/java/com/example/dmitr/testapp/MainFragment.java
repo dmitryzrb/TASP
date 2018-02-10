@@ -45,7 +45,7 @@ public class MainFragment extends Fragment {
         public void getData(){
             List<Drug> list = AppDatabase.getAppDatabase(getContext()).drugDao().getAll();
             if(list.size() > 0) {
-                textView.setText(list.get(0).getFirstName());
+                textView.setText(list.get(0).getLastName());
             }
         }
 
